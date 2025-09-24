@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Whack-a-Mole 🐹</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Whack-a-Mole 🐹</h1>
+  <div class="score-board">Score: <span id="score">0</span></div>
+  <div class="timer">Time Left: <span id="time">30</span>s</div>
+
+  <div class="game">
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+    <div class="hole">
+      <div class="mole"></div>
+      <div class="timer-up"></div>
+    </div>
+  </div>
+
+  <button id="startBtn">Start Game</button>
+
+  <!-- Modal popup -->
+  <div id="gameOverModal" class="modal">
+    <div class="modal-content">
+      <h2>Game Over!</h2>
+      <p>Your final score is <span id="finalScore"></span></p>
+      <button id="closeModalBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
